@@ -14,6 +14,7 @@
 		9406DB2C1B923F1000282612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9406DB2A1B923F1000282612 /* LaunchScreen.storyboard */; };
 		9406DB371B923F1000282612 /* UITextViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406DB361B923F1000282612 /* UITextViewDemoTests.swift */; };
 		9406DB421B923F1000282612 /* UITextViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406DB411B923F1000282612 /* UITextViewDemoUITests.swift */; };
+		9406DB501B92429700282612 /* EditModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406DB4F1B92429700282612 /* EditModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9406DB3D1B923F1000282612 /* UITextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9406DB411B923F1000282612 /* UITextViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewDemoUITests.swift; sourceTree = "<group>"; };
 		9406DB431B923F1000282612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9406DB4F1B92429700282612 /* EditModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditModeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9406DB281B923F1000282612 /* Assets.xcassets */,
 				9406DB2A1B923F1000282612 /* LaunchScreen.storyboard */,
 				9406DB2D1B923F1000282612 /* Info.plist */,
+				9406DB4F1B92429700282612 /* EditModeViewController.swift */,
 			);
 			path = UITextViewDemo;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				9406DB241B923F1000282612 /* ViewController.swift in Sources */,
 				9406DB221B923F1000282612 /* AppDelegate.swift in Sources */,
+				9406DB501B92429700282612 /* EditModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
